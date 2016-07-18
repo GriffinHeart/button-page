@@ -10,12 +10,15 @@
  */
 
 import React from 'react';
+import ButtonPage from '../../components/ButtonPage';
 
 export default class HomePage extends React.Component { // eslint-disable-line react/prefer-stateless-function
 
   render() {
     return (
-      <h1>This is the Homepage!</h1>
+      <div>
+        <ButtonPage />
+      </div>
     );
   }
 }
