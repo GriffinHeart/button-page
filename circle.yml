@@ -3,3 +3,4 @@ machine:
     version: 5.5.0
   post:
     - npm install -g npm@>=3
+    - npm set progress false
